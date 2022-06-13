@@ -33,3 +33,17 @@ nav {
     padding: 20px;
     margin: 20px;
 }
+
+@media (max-width: 400px) {
+
+    .posts {
+        display: inline;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    nav {
+        position: static;
+    }
+
+}
