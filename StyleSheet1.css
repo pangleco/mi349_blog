@@ -1,6 +1,7 @@
 ﻿body {
     background-color: white;
     font-family: "Courier New";
+    font-size: 12px;
 }
 
 .title {
@@ -14,9 +15,21 @@
 
 img{
     border-radius: 50%;
-
+    float: right;
+    margin-right: 10px;
 }
 
 a[href="index.html"]{
     color: darkred;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.posts{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
 }
