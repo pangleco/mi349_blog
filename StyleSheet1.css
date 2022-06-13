@@ -1,0 +1,22 @@
+﻿body {
+    background-color: white;
+    font-family: "Courier New";
+}
+
+.title {
+    font-family: "Lucida Console";
+    color: darkred;
+    font-size: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+img{
+    border-radius: 50%;
+
+}
+
+a[href="index.html"]{
+    color: darkred;
+}
